@@ -1,0 +1,23 @@
+
+
+$brown1: #964B00;
+
+%center {
+    text-align: center;
+    padding: 20px;
+}
+
+
+// $justify: 
+// $align: 
+
+//@mixin flex //($justify) //($align) {
+    //display: grid;
+    //justify-content: ;
+    //align-items: ;
+
+    @mixin flex ($justify, $align) {
+        display: flex;
+        justify-content: $justify;
+        align-items: $align;
+    }
